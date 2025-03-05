@@ -1,0 +1,6 @@
+Question:
+You can use a minus sign to make a negative number like -2. What happens if you put a plus sign
+before a number? What about 2++2?
+
+Answer:
+If + sign is given, complier interprets it as positive integer. 2++2 will give the output as 4.
