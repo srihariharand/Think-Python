@@ -1,0 +1,6 @@
+Question:
+What happens if you have two values with no operator between them, like 4 2?
+
+Answer:
+When we have two values with no operator between them syntax error occurs, python looks for an
+operator or a delimiter like comma between the values.
