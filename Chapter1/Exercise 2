@@ -1,6 +1,10 @@
-Question:
-You can use a minus sign to make a negative number like -2. What happens if you put a plus sign
+1. You can use a minus sign to make a negative number like -2. What happens if you put a plus sign
 before a number? What about 2++2?
-
-Answer:
 If + sign is given, complier interprets it as positive integer. 2++2 will give the output as 4.
+
+2. What happens if you have two values with no operator between them, like 4 2?
+When we have two values with no operator between them syntax error occurs, python looks for an
+operator or a delimiter like comma between the values.
+
+3. If you call a function like round(42.5), what happens if you leave out one or both parentheses?
+In python, round is a function. If parentheses is not declared as per syntax, it results in syntax error.
