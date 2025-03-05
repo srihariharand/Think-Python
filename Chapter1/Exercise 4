@@ -1,0 +1,41 @@
+Question:
+How many seconds are there in 42 minutes 42 seconds?
+How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.
+If you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace in seconds per mile?
+What is your average pace in minutes and seconds per mile?
+What is your average speed in miles per hour?
+
+Code:
+minutes = 42
+seconds = 42
+km = 10
+km_to_mile = 1.61
+
+# Convert 42 minutes 42 seconds to total seconds
+total_seconds =  minutes * 60 + seconds
+
+# Convert 10 kilometers to miles
+total_miles = km / km_to_mile
+
+# Calculate average pace in seconds per mile
+avg_pace_spm = total_seconds / total_miles
+
+# Calculate average pace in minutes and seconds per mile
+avg_pace_minutes = avg_pace_spm // 60
+avg_pace_seconds = avg_pace_spm % 60
+
+# Calculate average speed in miles per hour
+avg_speed_mph = total_miles / (total_seconds / 3600)
+
+print("Total seconds:", total_seconds)
+print("Miles:", total_miles)
+print("Average pace in seconds per mile:", avg_pace_spm)
+print("Average pace in minutes and seconds per mile:", avg_pace_minutes, avg_pace_seconds)
+print("Average speed in miles per hour:", avg_speed_mph)
+
+Output:
+Total seconds: 2562
+Miles: 6.211180124223602
+Average pace in seconds per mile: 412.482
+Average pace in minutes and seconds per mile: 6.0 52.48200000000003
+Average speed in miles per hour: 8.727653570337614
