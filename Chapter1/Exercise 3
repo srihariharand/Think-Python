@@ -1,6 +1,12 @@
-Question:
-What happens if you have two values with no operator between them, like 4 2?
+What is the type of the value of the following expressions? Make your best guess for each one, and
+then use type to find out.
 
-Answer:
-When we have two values with no operator between them syntax error occurs, python looks for an
-operator or a delimiter like comma between the values.
+
+765 - int
+2.718 – float
+'2 pi'- str
+abs(-7)- int
+abs(-7.0)- float
+abs – builtin_function_or_method, since abs is a function built in python’s core.
+int - type, In Python, &lt;class &#39;type&#39;&gt; refers to the metaclass of all classes. Every class (like int, str) is an instance of type
+type - type, type is a class that creates other classes. type is an instance of itself
